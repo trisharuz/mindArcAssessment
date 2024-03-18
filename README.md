@@ -1,4 +1,4 @@
-# MindArc Assessment
+# Mind Arc Assessment
 
 This repository contains the automated tests for the MindArc Assessment project.
 
@@ -37,6 +37,6 @@ To run the tests locally, follow these steps:
    ```
    
 ## Folder Structure
--/pages: Contains all the the page objects with methods and locators for different pages of the application.
+- /pages: Contains all the the page objects with methods and locators for different pages of the application.
 - /tests: Contains all the automated test scripts.
 - /utils: Contains utility functions and helper scripts.
