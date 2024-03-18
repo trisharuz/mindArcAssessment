@@ -39,17 +39,21 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Google Chrome'],
         viewport: null,
-      }
+      },
     },
 
     {
       name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
+      use: { ...devices['Desktop Firefox'],
+      viewport: null,
+      },
     },
 
     {
       name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
+      use: { ...devices['Desktop Safari'],
+      viewport: null,
+      },
     },
 
     /* Test against mobile viewports. */
