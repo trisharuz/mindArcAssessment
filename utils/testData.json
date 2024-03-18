@@ -1,0 +1,21 @@
+{
+    "firstNormalProductName": "Scrimshaw Knife Kit",
+    "firstNormalProductPrice": "$49.95",
+    "secondNormalProductName": "Stag Safety Matches",
+    "secondNormalProductPrice": "$9.00",
+    "firstApparelProductName": "Arrowhead Canoe T-Shirt",
+    "firstApparelProductPrice": "$28.50",
+    "secondApparelProductName": "CCC Legacy Bandana Dungarees Blue",
+    "secondApparelProductPrice": "$18.00",
+    "searchInput": "knife",
+    "contactEmail" : "test@test.com",
+    "shippingFirstName": "Test",
+    "shippingLastName": "Test", 
+    "shippingAddress": "Test Address", 
+    "shippingCity": "Big Bear Lake", 
+    "shippingState": "California",
+    "shippingZipCode": "92314", 
+    "cardNumber" : "5425233430109903",
+    "expiryDate" : "04/26",
+    "cvv" : "321"
+}
