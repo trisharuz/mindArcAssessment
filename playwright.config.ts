@@ -23,9 +23,6 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    launchOptions: {
-      args: ["--start-maximized"]  
-    },
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
 
@@ -39,20 +36,21 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Google Chrome'],
         viewport: null,
+        launchOptions: {
+          args: ["--start-maximized"]  
+        },
       },
     },
 
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'],
-      viewport: null,
       },
     },
 
     {
       name: 'webkit',
       use: { ...devices['Desktop Safari'],
-      viewport: null,
       },
     },
 
